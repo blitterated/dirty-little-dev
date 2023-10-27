@@ -11,4 +11,4 @@ RUN ./.provision/apt_prep.sh
 RUN ./.provision/manpages.sh
 RUN ./.provision/apt_install.sh
 
-ENTRYPOINT ["/init"]
+ENTRYPOINT ["/bin/bash"]

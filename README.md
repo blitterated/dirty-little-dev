@@ -35,5 +35,5 @@ docker build -t dirty .
 ### Run the dirty-dev image
 
 ```sh
-docker run -it --rm dirty /bin/bash
+docker run -it --rm dirty
 ```
